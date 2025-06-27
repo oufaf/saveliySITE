@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Исполнить мечты просто!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="logo.jpg" alt="Логотип" width="90" height="90">
+        </div>
+        <div class="header__title">
+            <h1>Исполнить мечты просто!</h1>
+        </div>
+        <nav class="header__nav">
+            <a href="actions.html">Акции</a>
+            <a href="search.html">Поиск</a>
+            <a href="manage.html">Управление бронированием</a>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-algo">
+            <h2>Алгоритм бронирования</h2>
+            <div class="booking-algo__steps">
+                <div class="step">
+                    <img src="calendar.svg" alt="Календарь" width="80">
+                    <span>Выбери дату похода</span>
+                </div>
+                <div class="step">
+                    <img src="humans.svg" alt="Группа" width="80">
+                    <span>Укажи количество участников<br>и их уровень подготовки</span>
+                </div>
+                <div class="step">
+                    <img src="map.svg" alt="Регион" width="80">
+                    <span>Выбери регион для похода</span>
+                </div>
+                <div class="step">
+                    <img src="temple.svg" alt="Места" width="80">
+                    <span>Выбери места для посещения</span>
+                </div>
+                <div class="step">
+                    <img src="list.svg" alt="Услуги" width="80">
+                    <span>Перечень доп. услуг</span>
+                </div>
+                <div class="step step--order">
+                    <img src="box.svg" alt="Оформить заказ" width="80">
+                    <span class="order-title">Оформите заказ</span>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <h2>О компании</h2>
+            <p>Цель компании - сделать любой поход удобным, комфортным и безопасным.</p>
+            <div class="about__dreams">
+                <h3>Исполнить мечты просто!</h3>
+                <div class="about__reviews">
+                    <div class="review">
+                        <img src="human1.png" alt="review1" width="80" height="80">
+                        <p>Походы очень увлекательные.<br>Будем заказывать еще.<br>Места очень красивые.</p>
+                    </div>
+                    <div class="review">
+                        <img src="human2.png" alt="review2" width="80" height="80">
+                        <p>Походы очень увлекательные.<br>Будем заказывать еще.<br>Места очень красивые.</p>
+                    </div>
+                    <div class="review">
+                        <img src="human3.png" alt="review3" width="80" height="80">
+                        <p>Походы очень увлекательные.<br>Будем заказывать еще.<br>Места очень красивые.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="search-form" id="search">
+            <h2>Форма поиска</h2>
+            <form>
+                <div class="form-row">
+                    <label>Выберите регион</label>
+                    <input type="text" name="region">
+                </div>
+                <div class="form-row">
+                    <label>Выберите дату похода</label>
+                    <input type="date" name="date">
+                </div>
+                <div class="form-row">
+                    <label>Количество участников</label>
+                    <input type="number" name="participants">
+                </div>
+                <div class="form-row">
+                    <label>Уровень подготовки</label>
+                    <input type="text" name="level">
+                </div>
+                <button type="submit">Найти</button>
+            </form>
+        </section>
+        <section class="actions" id="actions">
+            <h2>Акции дня! Только сегодня!</h2>
+            <div class="actions__list">
+                <div class="action">
+                    <img src="priroda1.jpg" alt="Акция 1" width="200" height="120">
+                    <div class="action__desc">
+                        <h3>Поход выходного дня. Цена ниже!!</h3>
+                        <p>Туристский маршрут, по которому мы собирались идти, особой сложности не представлял, хотя впоследствии неоднократно приходилось преодолевать изнурительные подъемы и спуски, ледники и переправы через горные речки. Мы это группа туристов, в состав которой входили две девушки и три парня.</p>
+                        <a href="actions.html" class="button">Подробнее об акции</a>
+                    </div>
+                </div>
+                <div class="action">
+                    <img src="priroda2.jpg" alt="Акция 2" width="200" height="120">
+                    <div class="action__desc">
+                        <h3>Походы на велосипедах! Заброска бесплатно!</h3>
+                        <p>Туристский маршрут, по которому мы собирались идти, особой сложности не представлял, хотя впоследствии неоднократно приходилось преодолевать изнурительные подъемы и спуски, ледники и переправы через горные речки.</p>
+                        <a href="actions.html" class="button">Подробнее об акции</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe__block">
+                <h2>Подписка на закрытые акции</h2>
+                <form>
+                    <label>Ваш e-mail</label>
+                    <input type="email" name="email">
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+            <div class="subscribe__img">
+                <img src="logo23.png" alt="zipline" width="120">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__contacts">
+            <span>тел. 8 (800) 555-33-10</span>
+        </div>
+        <nav class="footer__nav">
+            <a href="#actions">Акции</a>
+            <a href="#search">Поиск</a>
+            <a href="#manage">Управление бронированием</a>
+        </nav>
+    </footer>
+</body>
+</html> 
